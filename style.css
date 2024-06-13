@@ -118,13 +118,14 @@ body {
     transform: translateY(-50%); 
 }
 .button13 { 
-    background-image: linear-gradient(to right, green, black); 
+    background: radial-gradient(circle, limegreen 40%, rgb(24, 24, 24) 90%); 
 }
 .button14 { 
-    background-image: linear-gradient(to right, red, rgb(102, 2, 102)); 
+    background-image: linear-gradient(to right, red 10%, rgb(102, 2, 102), rgb(11, 0, 222)); 
 }
 .button15 { 
-    background-image: linear-gradient(to right, green, lime); 
+    background: radial-gradient(circle, limegreen 40%, blue 100%);
+    box-shadow: 0 0 15px 0 rgba(0, 0, 255, 0.5);
     margin-top: 12px;
 }
 .button16 { 
